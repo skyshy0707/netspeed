@@ -7,10 +7,9 @@
 
 > [!WARNING] 
 > Перед использованием требуется установка зависимостей:
-
-```bash
-pip install -r requirements.txt
-```
+> ```bash
+> pip install -r requirements.txt
+> ```
 
 ## Использование
 
@@ -20,11 +19,11 @@ python main.py --url [URL] --num_requests [INTEGER]
 
 Где: 
 
-`url` - URL адрес скачиваемого, (по умолчананию `https://esahubble.org/media/archives/images/publicationtiff/sci25007a.tif`)
+`url` - URL адрес скачиваемого, (по умолчанию `https://esahubble.org/media/archives/images/publicationtiff/sci25007a.tif`)
 
 `num_requests` - число выполняемых запросов на скачивание, (по умолчанию `10`)
 
-Скрипт можно запустить с параметрами по умолчанию (заданы в модуле src/app/parser.py):
+Скрипт можно запустить с параметрами по умолчанию (заданы в модуле app/parser.py):
 
 ```bash
 python main.py
